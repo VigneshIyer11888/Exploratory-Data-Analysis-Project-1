@@ -5,6 +5,7 @@ powerCondata <- read.csv("../exdata_data_household_power_consumption/household_p
                          na.strings = "?" )
 nrow(powerCondata)
 
+# subsetting the Power Data
 subsetPowerData <-  subset(powerCondata, powerCondata$Date == "1/2/2007" | powerCondata$Date =="2/2/2007")
 
 str(subsetPowerData) 
