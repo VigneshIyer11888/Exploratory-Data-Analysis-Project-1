@@ -53,7 +53,13 @@ Plot 1
 
 Plot 2
 
+![Plot 2](https://github.com/VigneshIyer11888/Exploratory-Data-Analysis-Project-1/blob/master/plot2.png)
+
 Plot 3
 
+![Plot 3](https://github.com/VigneshIyer11888/Exploratory-Data-Analysis-Project-1/blob/master/plot3.png)
+
 Plot 4
+
+![Plot 4](https://github.com/VigneshIyer11888/Exploratory-Data-Analysis-Project-1/blob/master/plot4.png)
 
