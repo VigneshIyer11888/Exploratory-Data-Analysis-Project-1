@@ -9,11 +9,6 @@ subsetPowerData <-  subset(powerCondata, powerCondata$Date == "1/2/2007" | power
 
 str(subsetPowerData) 
 
-
-subMetering1 <- as.numeric(subsetPowerData$Sub_metering_1)
-subMetering2 <- as.numeric(subsetPowerData$Sub_metering_2)
-subMetering3 <- as.numeric(subsetPowerData$Sub_metering_3)
-
 png("plot3.png", width=480, height=480)
 plot(strptime(paste(subsetPowerData$Date, subsetPowerData$Time, sep=" "), "%d/%m/%Y %H:%M:%S"), as.numeric(subsetPowerData$Sub_metering_1), type="l", ylab="Energy Submetering", xlab="")
 lines(strptime(paste(subsetPowerData$Date, subsetPowerData$Time, sep=" "), "%d/%m/%Y %H:%M:%S"), as.numeric(subsetPowerData$Sub_metering_2), type="l", col="red")
